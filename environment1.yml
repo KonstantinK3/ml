@@ -1,0 +1,20 @@
+name: tf-gpu
+channels:
+- !!python/unicode
+  'defaults'
+dependencies:
+- python=3.6.3
+- pip
+- numpy
+- jupyter
+- matplotlib
+- scikit-learn
+- scipy
+- pandas
+- pillow
+- seaborn
+- h5py
+- spyder
+- pip:
+  - tensorflow-gpu
+  - keras
